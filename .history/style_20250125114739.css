@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.8rem;
+    margin-top: 80px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2.2rem;
+    margin-top: 20px;
+}
+
+.card-container {
+    margin-top: 60px;
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card {
+    height: 300px;
+    width: 200px;
+    border-radius: 16px;
+    border: solid black 1px;
+    padding: 16px;
+    margin-bottom: 20px;
+}
+
+.card h3 {
+    font-size: 1.4rem;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card p {
+    margin-top: 12px;
+}
+
+footer {
+    text-align: center;
+    width: 80;
+}
